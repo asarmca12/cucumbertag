@@ -22,7 +22,7 @@ formatter.match({
   "location": "Addcustomerstepsall.the_user_is_in_telecom_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "The user click on add Customer",
@@ -32,10 +32,10 @@ formatter.match({
   "location": "Addcustomerstepsall.the_user_click_on_add_Customer()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
-  "name": "Title of your scenario",
+  "name": "sub",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -44,6 +44,9 @@ formatter.scenario({
     },
     {
       "name": "@Addtarif"
+    },
+    {
+      "name": "@Addcustomer"
     }
   ]
 });
@@ -87,7 +90,7 @@ formatter.match({
   "location": "Addcustomerstepsall.the_user_filling_all_details_with_manual(DataTable)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "The user click on submit button",
@@ -97,7 +100,7 @@ formatter.match({
   "location": "Addcustomerstepsall.the_user_click_on_submit_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "The user should be displayed id",
@@ -107,6 +110,6 @@ formatter.match({
   "location": "Addcustomerstepsall.the_user_should_be_displayed_id()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 });

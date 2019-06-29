@@ -1,10 +1,10 @@
 @tag
 Feature: Addcustomer.feature
   Background:
- Given The user is in telecom page
+   Given The user is in telecom page
     And The user click on add Customer  
 
-  @Addcustomer
+  @Addcustomer 
   Scenario: Title of your scenario
    
     When The user filling all details
@@ -12,13 +12,13 @@ Feature: Addcustomer.feature
     And The user click on submit button
     Then The user should be displayed id
     
-@Addtarif
- Scenario: Title of your scenario
+@Addtarif @Addcustomer
+ Scenario: sub
     
     When The user filling all details with manual
     |fname|asar|
     |lname|selenium|
-    |email|asarmca12@gmail.com|
+    |asarmca12@gmail.com|
     |address|chennai|
     |phone|9787222786|
     And The user click on submit button

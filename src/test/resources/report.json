@@ -1,0 +1,144 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9510931000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user is in telecom page",
+            "match": {
+              "location": "Addcustomerstepsall.the_user_is_in_telecom_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7075315800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user click on add Customer",
+            "match": {
+              "location": "Addcustomerstepsall.the_user_click_on_add_Customer()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "sub",
+        "description": "",
+        "id": "addcustomer.feature;sub",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 754342700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The user filling all details with manual",
+            "match": {
+              "location": "Addcustomerstepsall.the_user_filling_all_details_with_manual(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fname",
+                  "asar"
+                ]
+              },
+              {
+                "cells": [
+                  "lname",
+                  "selenium"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "asarmca12@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "address",
+                  "chennai"
+                ]
+              },
+              {
+                "cells": [
+                  "phone",
+                  "9787222786"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1893035800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user click on submit button",
+            "match": {
+              "location": "Addcustomerstepsall.the_user_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97335300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The user should be displayed id",
+            "match": {
+              "location": "Addcustomerstepsall.the_user_should_be_displayed_id()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Addtarif"
+          },
+          {
+            "name": "@Addcustomer"
+          }
+        ]
+      }
+    ],
+    "name": "Addcustomer.feature",
+    "description": "",
+    "id": "addcustomer.feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/Addcustomer.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
